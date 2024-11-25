@@ -41,6 +41,11 @@ const About = () => {
           })}
         </TableBody>
       </Table>
+
+      <p className="mt-6">
+        Sản phẩm của HKD Thực Phẩm Phú An cam kết đảm bảo an toàn vệ sinh thực
+        phẩm, đầy đủ hồ sơ chứng minh chất lượng sản phẩm.
+      </p>
     </div>
   );
 };

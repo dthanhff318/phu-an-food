@@ -10,6 +10,10 @@ const productData = [
     name: "",
   },
   {
+    src: "/imgs/banana6.webp",
+    name: "",
+  },
+  {
     src: "/imgs/banana4.webp",
     name: "",
   },
@@ -34,7 +38,7 @@ export default Products;
 const ProductItem = ({ src, name }: { src: string; name: string }) => {
   return (
     <motion.div
-      className="w-full h-[300px] overflow-hidden rounded-lg"
+      className="w-full h-[300px] sm:h-[700px] overflow-hidden rounded-lg"
       initial={{ x: "30%", opacity: 0 }}
       transition={{ duration: 0.3, ease: "linear" }}
       whileInView={{ x: 0, opacity: 1 }}

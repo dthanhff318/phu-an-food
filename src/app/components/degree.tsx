@@ -15,7 +15,7 @@ const Degree = () => {
       </h2>
       <div className="flex gap-3 flex-wrap mt-4">
         {data.map((e) => (
-          <div key={e.img} className="w-full">
+          <div key={e.img} className="w-full flex justify-center">
             <img src={e.img} alt="" />
           </div>
         ))}
