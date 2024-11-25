@@ -1,14 +1,16 @@
+import { motion } from "framer-motion";
+
 const productData = [
   {
     src: "/imgs/banana.jpg",
     name: "",
   },
   {
-    src: "/imgs/banana.jpg",
+    src: "/imgs/apple.jpg",
     name: "",
   },
   {
-    src: "/imgs/banana.jpg",
+    src: "/imgs/strawberry.jpg",
     name: "",
   },
 ];
@@ -31,8 +33,13 @@ export default Products;
 
 const ProductItem = ({ src, name }: { src: string; name: string }) => {
   return (
-    <div className="w-full h-[300px] overflow-hidden">
-      <img src={src} alt={name} className="w-full h-full object-cover" />
-    </div>
+    <motion.div
+      className="w-full h-[300px] overflow-hidden rounded-lg"
+      initial={{ x: "30%", opacity: 0 }}
+      transition={{ duration: 0.3, ease: "linear" }}
+      whileInView={{ x: 0, opacity: 1 }}
+    >
+      <motion.img src={src} alt={name} className="w-full h-full object-cover" />
+    </motion.div>
   );
 };

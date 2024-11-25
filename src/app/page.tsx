@@ -1,7 +1,10 @@
 "use client";
 
 import About from "@/app/components/about";
+import Degree from "@/app/components/degree";
+import Footer from "@/app/components/footer";
 import Products from "@/app/components/products";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function Home() {
@@ -32,16 +35,22 @@ export default function Home() {
               Thực phẩm hữu cơ <br /> Ngon và tốt cho sức khỏe
             </h2>
           </div>
-          <img
-            src="https://tunatheme.com/tf/html/broccoli-preview/broccoli/img/slider/23.png"
+          <motion.img
+            src="/imgs/orange.jpg"
             alt="Fruit"
             className="w-[90%] sm:w-[662px] h-auto sm:h-[380px]"
+            initial={{ opacity: 0 }}
+            transition={{ duration: 0.5, ease: "linear" }}
+            animate={{ opacity: 1 }}
           />
         </div>
         <About />
         <Products />
+        <Degree />
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <Footer />
+      </footer>
     </div>
   );
 }
