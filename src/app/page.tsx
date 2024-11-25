@@ -16,7 +16,7 @@ export default function Home() {
             <p className="text-[#071c1f]">Huyện Yên Mỹ, tỉnh Hưng Yên</p>
           </div>
           <div>
-            <p className="text-[#071c1f]">email@gmail.com</p>
+            <p className="text-[#071c1f]">phuanthucpham@gmail.com</p>
           </div>
         </div>
         <div className="w-full h-[400px] flex-col flex sm:flex-row items-center justify-center sm:justify-around gap-4 bg-[#f7f5eb]">
@@ -36,7 +36,7 @@ export default function Home() {
             </h2>
           </div>
           <motion.img
-            src="/imgs/orange.jpg"
+            src="/imgs/bananaBg.png"
             alt="Fruit"
             className="w-[90%] sm:w-[662px] h-auto sm:h-[380px]"
             initial={{ opacity: 0 }}

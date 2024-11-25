@@ -3,20 +3,19 @@ import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 const configData = [
   {
     title: "Nhà sản xuất",
-    value: "Hợp tác xã dịch vụ nông nghiệp Tịnh Thới",
+    value: "HỘ KINH DOANH THỰC PHẨM PHÚ AN",
   },
   {
     title: "Địa chỉ",
-    value:
-      "Ấp Tịnh Châu, ấp Tịnh Long, ấp Tịnh Hưng, ấp Tịnh Mỹ, xã Tịnh Thới, thành phố Cao Lanh, tỉnh Đồng Tháp",
+    value: "Thôn Hòa Mục, Hoàn Long, Yên Mỹ, Hưng Yên",
   },
   {
-    title: "Mã số",
-    value: "VietGap-TT-13-04-87-0102",
+    title: "Số chứng nhận ATTP",
+    value: "04/2023/NNPTNT-HY",
   },
   {
     title: "Điện thoại",
-    value: "0939 142 143",
+    value: "0983 316 773",
   },
 ];
 

@@ -6,11 +6,11 @@ const productData = [
     name: "",
   },
   {
-    src: "/imgs/apple.jpg",
+    src: "/imgs/banana5.webp",
     name: "",
   },
   {
-    src: "/imgs/strawberry.jpg",
+    src: "/imgs/banana4.webp",
     name: "",
   },
 ];
