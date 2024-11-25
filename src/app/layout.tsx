@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <link rel="icon" href="/bananaicon.png" />
       <body className={`${oswald.className}`}>{children}</body>
     </html>
   );
