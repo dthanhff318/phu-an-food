@@ -32,7 +32,7 @@ export default Products;
 const ProductItem = ({ src, name }: { src: string; name: string }) => {
   return (
     <div className="w-full h-[300px] overflow-hidden">
-      <img src={src} alt="" className="w-full h-full object-cover" />
+      <img src={src} alt={name} className="w-full h-full object-cover" />
     </div>
   );
 };
