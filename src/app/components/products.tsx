@@ -20,6 +20,14 @@ const productData = [
     src: "/imgs/banana4.webp",
     name: "Chuối chất lượng cao",
   },
+  {
+    src: "/imgs/banana7.png",
+    name: "Chuối tiêu",
+  },
+  {
+    src: "/imgs/banana8.png",
+    name: "Chuối sỉ",
+  },
 ];
 
 const Products = () => {
@@ -51,7 +59,7 @@ const Products = () => {
         </motion.div>
 
         {/* Product grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {productData.map((product, i) => (
             <motion.div
               key={i}
